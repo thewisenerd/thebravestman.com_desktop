@@ -1,0 +1,106 @@
+<!doctype html>
+<html itemscope itemtype="http://schema.org/Product">
+	<head>
+		<meta charset="utf-8" />
+		<title>The Bravest Man in the Universe</title>
+		<meta name="description" content="Join Bobby Womack in an interactive music journey. A Mobile Chrome experiment." />
+		<meta itemprop="name" content="The Bravest Man in the Universe">
+		<meta itemprop="description" content="Join Bobby Womack in an interactive music journey. A Mobile Chrome experiment.">
+
+
+		<link href="assets/css/space.css" rel="stylesheet" type="text/css" />
+
+		<script>
+			(function(){
+				if(!Array.prototype.indexOf) Array.prototype.indexOf = function(obj){for(var i=0;i<this.length;i++){if(this[i]===obj){return i;}}return -1;}
+				var isAgent = function(agent){return navigator.userAgent.indexOf(agent) >= 0 ? true:false;}
+				if(isAgent('Mobile') || isAgent('Android')){
+					window.location = '../';
+				}
+			})(this);
+		</script>
+
+	</head>
+	<body>
+
+		<div id="background"></div>
+		<div id="stars"></div>
+		<div id="twinkle"></div>
+		<div id="earth-glow"></div>
+		<div id="sun"></div>
+		<div id="cloud-left"></div>
+		<div id="cloud-right"></div>
+		<div id="city-left"></div>
+		<div id="city-right"></div>
+		<div id="earth"></div>
+		<div id="shuttle"></div>
+		<div id="satellite"></div>
+		<div id="asteroids"></div>
+		<div id="spaceman"></div>
+		<div id="logos"></div>
+		<div id="falling-star"></div>
+
+		<div id="content">
+			<div id="grid"></div>
+			<div id="helmet"></div>
+			<div id="divider"></div>
+			<div id="content-top">
+				<div id="bravest-man-title"></div>
+			</div>
+			<div id="content-bottom">
+				<div id="bravest-man-subheader">
+					A mobile interactive music video, featuring Bobby Womack.<br />
+					Please visit bravestman.com on a mobile or tablet device.
+				</div>
+			</div>
+			<div id="buttons">
+				<a class="view-demo" href="http://www.youtube.com/watch?v=626CEirW5to" onclick="viewDemo(); return false;">View Teaser</a>
+				<a class="google-play" href="https://play.google.com/store/music/album?id=Bwqztkr7qhou676uyar2eisemlm">Get It On<br />Google Play</a>
+				<a class="itunes" href="http://itunes.apple.com/us/album/bravest-man-in-universe/id522068118">Download on<br />iTunes</a>
+			</div>
+		</div>
+
+		<div id="disclaimer">Requires an phone or tablet running Android 4 with Chrome or an Apple iPhone or iPad running iOS 5.0</div>
+
+		<div id="footer">
+
+			<div id="sharing">
+
+				<div id="share-google"><div class="g-plusone" data-size="medium" data-href="http://www.bravestman.com"></div></div>
+
+			</div>
+
+		</div>
+
+		<div id="demo" onclick="closeDemo();">
+			<div id="video-container"></div>
+			<a id="video-close-button" href="index.html#" onclick="closeDemo(); return false"></a>
+		</div>
+
+		<script type="text/javascript" src="assets/js/main.js"></script>
+		<script type="text/javascript">
+
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-32867248-1']);
+			_gaq.push(['_setDomainName', 'bravestman.com']);
+			_gaq.push(['_setAllowLinker', true]);
+			_gaq.push(['_trackPageview']);
+
+			(function() {
+
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+
+				var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+				po.src = 'https://apis.google.com/js/plusone.js';
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(po, s);
+
+				init();
+			})();
+
+		</script>
+
+	</body>
+</html>
