@@ -85,14 +85,17 @@ html, body{
 
 #shuttle {
   position: absolute;
+  bottom: 20vh;
+  left: 5vh;
+  z-index: 19;
+
   width: 272px;
   height: 78px;
+
   background-image: url('../img/shuttle.png');
   background-repeat: no-repeat;
-  z-index: 19;
-  bottom: 280px;
-  left: 50%;
-  margin-left: -1200px;
+  background-size: 272px auto;
+  background-position: center bottom;
 }
 
 #satellite {
@@ -314,8 +317,16 @@ html, body{
 }
 
 @media only screen and (max-width : 767px) {
-	#background {
-		width: 400vw;
-		background-position: -150vw 0;
-	}
+  #background {
+    width: 400vw;
+    background-position: -150vw 0;
+  }
+
+  #shuttle {
+    width: 136px;
+    height: 39px;
+    background-size: 136px auto;
+
+    bottom: 15vh;
+  }
 }
