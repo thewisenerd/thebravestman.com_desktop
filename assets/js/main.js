@@ -54,14 +54,6 @@ function init() {
   animateAsteroids();
 }
 
-function setPageView(value) {
-  _gaq.push(['_trackPageview', value]);
-};
-
-function setEvent(category, action, label) {
-  _gaq.push(['_trackEvent', category, action, label]);
-};
-
 function addStars() {
   var shouldAnimate = true;
   var count = 60;
@@ -164,17 +156,4 @@ function animateAsteroids () {
   };
 
   animate();
-};
-
-var demoDiv = document.getElementById('demo');
-var videoContainerDiv = document.getElementById('video-container');
-
-function viewDemo () {
-  demoDiv.className = "active";
-  videoContainerDiv.innerHTML = '<iframe class="youtube-player" type="text/html" width="853" height="505" src="http://www.youtube.com/embed/626CEirW5to?autoplay=1&rel=0&vq=hd720" frameborder="0"></iframe>';
-};
-
-function closeDemo () {
-  demoDiv.className = "";
-  videoContainerDiv.innerHTML = "";
 };
