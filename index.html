@@ -10,16 +10,6 @@
 
 		<link href="assets/css/space.css" rel="stylesheet" type="text/css" />
 
-		<script>
-			(function(){
-				if(!Array.prototype.indexOf) Array.prototype.indexOf = function(obj){for(var i=0;i<this.length;i++){if(this[i]===obj){return i;}}return -1;}
-				var isAgent = function(agent){return navigator.userAgent.indexOf(agent) >= 0 ? true:false;}
-				if(isAgent('Mobile') || isAgent('Android')){
-					window.location = '../';
-				}
-			})(this);
-		</script>
-
 	</head>
 	<body>
 
