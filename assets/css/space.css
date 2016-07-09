@@ -33,7 +33,7 @@ html, body{
 
   width: 100vw;
   height: 100vh;
-  background-image: url('../img/stars.png');
+  background-image: url('/assets/images/bravestman/stars.png');
   background-repeat: repeat;
   z-index: 11;
 }
@@ -62,7 +62,7 @@ html, body{
 
   width: 100vw;
   height: 25vh;
-  background-image: url('../img/glow.png');
+  background-image: url('/assets/images/bravestman/glow.png');
   background-repeat: no-repeat;
   background-size: 100vw auto;
   background-position: center bottom;
@@ -76,7 +76,7 @@ html, body{
 
   width: 100vw;
   height: 25vh;
-  background-image: url('../img/earth.png');
+  background-image: url('/assets/images/bravestman/earth.png');
   background-repeat: no-repeat;
   background-size: 100vw auto;
   background-position: center bottom;
@@ -91,7 +91,7 @@ html, body{
   width: 272px;
   height: 78px;
 
-  background-image: url('../img/shuttle.png');
+  background-image: url('/assets/images/bravestman/shuttle.png');
   background-repeat: no-repeat;
   background-size: 272px auto;
   background-position: center bottom;
@@ -104,7 +104,7 @@ html, body{
 
   width: 36px;
   height: 26px;
-  background-image: url('../img/satellite.png');
+  background-image: url('/assets/images/bravestman/satellite.png');
   background-repeat: no-repeat;
   z-index: 20;
 }
@@ -116,7 +116,7 @@ html, body{
   max-width: 100vw;
   overflow: hidden;
   height: 60vh;
-  background-image: url('../img/asteroids.png');
+  background-image: url('/assets/images/bravestman/asteroids.png');
   background-repeat: no-repeat;
   background-size: 100vw auto;
   background-position: center bottom;
@@ -133,73 +133,73 @@ html, body{
 }
 
 .asteroid1 {
-  background-image: url('../img/asteroids/asteroid01.png');
+  background-image: url('/assets/images/bravestman/asteroids/asteroid01.png');
   width: 40px;
   height: 47px;
 }
 
 .asteroid2 {
-  background-image: url('../img/asteroids/asteroid02.png');
+  background-image: url('/assets/images/bravestman/asteroids/asteroid02.png');
   width: 18px;
   height: 17px;
 }
 
 .asteroid3 {
-  background-image: url('../img/asteroids/asteroid03.png');
+  background-image: url('/assets/images/bravestman/asteroids/asteroid03.png');
   width: 24px;
   height: 28px;
 }
 
 .asteroid4 {
-  background-image: url('../img/asteroids/asteroid04.png');
+  background-image: url('/assets/images/bravestman/asteroids/asteroid04.png');
   width: 66px;
   height:23px;
 }
 
 .asteroid5 {
-  background-image: url('../img/asteroids/asteroid05.png');
+  background-image: url('/assets/images/bravestman/asteroids/asteroid05.png');
   width: 25px;
   height: 18px;
 }
 
 .asteroid6 {
-  background-image: url('../img/asteroids/asteroid06.png');
+  background-image: url('/assets/images/bravestman/asteroids/asteroid06.png');
   width: 24px;
   height: 20px;
 }
 
 .asteroid7 {
-  background-image: url('../img/asteroids/asteroid07.png');
+  background-image: url('/assets/images/bravestman/asteroids/asteroid07.png');
   width: 24px;
   height: 20px;
 }
 
 .asteroid8 {
-  background-image: url('../img/asteroids/asteroid08.png');
+  background-image: url('/assets/images/bravestman/asteroids/asteroid08.png');
   width: 30px;
   height: 27px;
 }
 
 .asteroid9 {
-  background-image: url('../img/asteroids/asteroid09.png');
+  background-image: url('/assets/images/bravestman/asteroids/asteroid09.png');
   width: 42px;
   height: 33px;
 }
 
 .asteroid10 {
-  background-image: url('../img/asteroids/asteroid10.png');
+  background-image: url('/assets/images/bravestman/asteroids/asteroid10.png');
   width: 13px;
   height: 11px;
 }
 
 .asteroid11 {
-  background-image: url('../img/asteroids/asteroid11.png');
+  background-image: url('/assets/images/bravestman/asteroids/asteroid11.png');
   width: 12px;
   height: 11px;
 }
 
 .asteroid12 {
-  background-image: url('../img/asteroids/asteroid12.png');
+  background-image: url('/assets/images/bravestman/asteroids/asteroid12.png');
   width: 33px;
   height: 12px;
 }
@@ -208,7 +208,7 @@ html, body{
   position: absolute;
   top: 25vh;
   left: 10vh;
-  background-image: url('../img/falling-star.png');
+  background-image: url('/assets/images/bravestman/falling-star.png');
   width: 112px;
   height: 87px;
   opacity: 0;

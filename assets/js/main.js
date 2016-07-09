@@ -97,7 +97,7 @@ function addStars() {
   if(animation) {
     for(var i = 0; i < count; i++) {
       var image = new Image();
-      image.src = "assets/img/star.png";
+      image.src = "/assets/images/bravestman/star.png";
       image.className = "little-star";
       image.id = "star" + i;
       image.style.left = parseInt(Math.random() * vw)+'px';
