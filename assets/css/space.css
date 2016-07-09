@@ -14,7 +14,6 @@ html, body{
   width: 200vw;
   height: 200vh;
 
-
   background: rgb(22,36,50); /* Old browsers */
   background: -moz-radial-gradient(center, ellipse cover, rgba(22,36,50,1) 27%, rgba(0,0,0,1) 100%); /* FF3.6+ */
   background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(27%,rgba(22,36,50,1)), color-stop(100%,rgba(0,0,0,1))); /* Chrome,Safari4+ */
@@ -114,6 +113,8 @@ html, body{
   position: absolute;
   top: 10vh;
   width: 100vw;
+  max-width: 100vw;
+  overflow: hidden;
   height: 60vh;
   background-image: url('../img/asteroids.png');
   background-repeat: no-repeat;
