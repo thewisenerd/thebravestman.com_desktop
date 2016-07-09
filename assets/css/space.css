@@ -312,3 +312,10 @@ html, body{
     opacity: 1;
   }
 }
+
+@media only screen and (max-width : 767px) {
+	#background {
+		width: 400vw;
+		background-position: -150vw 0;
+	}
+}
