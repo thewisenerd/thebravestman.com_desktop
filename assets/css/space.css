@@ -100,34 +100,31 @@ html, body{
 
 #satellite {
   position: absolute;
+  right: 5vw;
+  top: 10vh;
+
   width: 36px;
   height: 26px;
   background-image: url('../img/satellite.png');
   background-repeat: no-repeat;
   z-index: 20;
-  bottom: 600px;
-  left: 50%;
-  margin-left: 580px;
 }
 
 #asteroids {
   position: absolute;
-  width: 1822px;
-  height: 160px;
+  top: 10vh;
+  width: 100vw;
+  height: 60vh;
   background-image: url('../img/asteroids.png');
   background-repeat: no-repeat;
+  background-size: 100vw auto;
+  background-position: center bottom;
+
   z-index: 21;
-  bottom: 650px;
-  left: 50%;
-  margin-left: -911px;
 }
 
 #asteroids.animated {
-  width: 2000px;
-  height: 500px;
-  bottom: 50%;
   background-image: none;
-  margin-left: -1000px;
 }
 
 #asteroids div {

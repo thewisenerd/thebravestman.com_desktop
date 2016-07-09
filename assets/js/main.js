@@ -147,6 +147,14 @@ function animateAsteroids () {
   var tOffsets = [0, 0.1, 0.15, 0.3, 0.36, 0.5, 0.56, 0.75, 0.7, 0.82, 0.89, 0.94];
   var yOffsets = [0, 70, 0, 80, 20, 30, -40, 70, 20, 10, -50, 20];
 
+  var viewport = window.viewport();
+  var w = viewport.width || 2000;
+  var h = (((w > 767) ? 0.1 : 0.2) * viewport.height) || 250;
+  if (w < 768) {
+    yOffsets = [0, 105, 0, 120, 30, 45, -60, 105, 30, 15, -75, 30];
+    tDuration = 66 * 1000;
+  }
+
   for (var index = 1; index <= 12; index++) {
     var asteroidDiv = document.createElement('div');
     asteroidDiv.className = 'asteroid' + index;
@@ -160,8 +168,8 @@ function animateAsteroids () {
       var rDuration = rDurations[index];
       var r = ((Date.now() / rDuration) % 1) * 360 * rDirections[index];
       var t = (Date.now() / tDuration + tOffsets[index]) % 1;
-      var x = 2000 * t;
-      var y = 120 + Math.pow(t - 0.5, 2) * 1000 + yOffsets[index];
+      var x = w * t;
+      var y = 120 + ((w > 767) ? (Math.pow(t - 0.5, 2) * 1000) : 0) + yOffsets[index];
       var s = Math.min(Math.min(t / 0.1, (1 - t) / 0.1), 1);
       asteroidDiv.style[transformProperty] = "translateX(" + x + "px) translateY(" + y + "px) rotate(" + r + "deg) scale(" + s + ") ";
     }
