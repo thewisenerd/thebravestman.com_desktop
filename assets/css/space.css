@@ -41,12 +41,12 @@ html, body{
 
 #twinkle {
   position: absolute;
-  width: 1600px;
-  height: 1200px;
+  top: 0;
+  left: 0;
+
+  width: 100vw;
+  height: 100vh;
   z-index: 11;
-  bottom: 0;
-  left: 50%;
-  margin-left: -800px;
 }
 
 .little-star {
