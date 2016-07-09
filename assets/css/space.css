@@ -205,8 +205,8 @@ html, body{
 
 #falling-star {
   position: absolute;
-  top: 25%;
-  left: 10%;
+  top: 25vh;
+  left: 10vh;
   background-image: url('../img/falling-star.png');
   width: 112px;
   height: 87px;
