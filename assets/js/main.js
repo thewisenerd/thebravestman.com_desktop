@@ -72,6 +72,7 @@ function addStars() {
   var viewport = window.viewport();
   var vw = viewport.width || 1600;
   var vh = viewport.height || 1200;
+  count = Math.floor(Math.max(((vw * vh) / 22500), 60));
 
   var animation = false,
       animationstring = 'animation',
