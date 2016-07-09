@@ -67,54 +67,6 @@ html, body{
   margin-left: -765px;
 }
 
-#cloud-left {
-  position: absolute;
-  width: 652px;
-  height: 26px;
-  background-image: url('../img/clouds-left.png');
-  background-repeat: no-repeat;
-  z-index: 14;
-  bottom: 115px;
-  left: 50%;
-  margin-left: -1000px;
-}
-
-#cloud-right {
-  position: absolute;
-  width: 556px;
-  height: 25px;
-  background-image: url('../img/clouds-right.png');
-  background-repeat: no-repeat;
-  z-index: 15;
-  bottom: 115px;
-  left: 50%;
-  margin-left: 450px;
-}
-
-#city-left {
-  position: absolute;
-  width: 336px;
-  height: 108px;
-  background-image: url('../img/city-left.png');
-  background-repeat: no-repeat;
-  z-index: 16;
-  bottom: 0;
-  left: 50%;
-  margin-left: -540px;
-}
-
-#city-right {
-  position: absolute;
-  width: 153px;
-  height: 84px;
-  background-image: url('../img/city-right.png');
-  background-repeat: no-repeat;
-  z-index: 17;
-  bottom: 0;
-  left: 50%;
-  margin-left: 1110px;
-}
-
 #earth {
   position: absolute;
   width: 2256px;
@@ -245,16 +197,6 @@ html, body{
   background-image: url('../img/asteroids/asteroid12.png');
   width: 33px;
   height: 12px;
-}
-
-#spaceman {
-  position: absolute;
-  width: 22px;
-  height: 25px;
-  z-index: 70;
-  bottom: 50px;
-  left: 50%;
-  margin-left: 983px;
 }
 
 #falling-star {
