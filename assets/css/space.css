@@ -29,14 +29,14 @@ html, body{
 
 #stars {
   position: absolute;
-  width: 2560px;
-  height: 1920px;
+  top: 0;
+  left: 0;
+
+  width: 100vw;
+  height: 100vh;
   background-image: url('../img/stars.png');
   background-repeat: repeat;
   z-index: 11;
-  bottom: 0;
-  left: 50%;
-  margin-left: -1280px;
 }
 
 #twinkle {
