@@ -47,6 +47,15 @@
   window.requestAnimationFrame = requestAnimationFrame;
   window.cancelAnimationFrame = cancelAnimationFrame;
 
+  // add viewport dimens fn
+  window.viewport = function() {
+    return {
+      // http://stackoverflow.com/a/8876069
+      width: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),
+      height: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)
+    }
+  }
+
 })( window );
 
 function init() {
