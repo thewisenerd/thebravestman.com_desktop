@@ -57,26 +57,30 @@ html, body{
 
 #earth-glow {
   position: absolute;
-  width: 2256px;
-  height: 212px;
+  left: 0;
+  bottom: 0;
+  z-index: 12;
+
+  width: 100vw;
+  height: 25vh;
   background-image: url('../img/glow.png');
   background-repeat: no-repeat;
-  z-index: 12;
-  bottom: 0;
-  left: 50%;
-  margin-left: -765px;
+  background-size: 100vw auto;
+  background-position: center bottom;
 }
 
 #earth {
   position: absolute;
-  width: 2256px;
-  height: 212px;
+  left: 0;
+  bottom: 0;
+  z-index: 18;
+
+  width: 100vw;
+  height: 25vh;
   background-image: url('../img/earth.png');
   background-repeat: no-repeat;
-  z-index: 18;
-  bottom: 0;
-  left: 50%;
-  margin-left: -765px;
+  background-size: 100vw auto;
+  background-position: center bottom;
 }
 
 #shuttle {
