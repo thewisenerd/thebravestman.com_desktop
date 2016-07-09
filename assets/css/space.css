@@ -67,18 +67,6 @@ html, body{
   margin-left: -765px;
 }
 
-#sun {
-  position: absolute;
-  width: 124px;
-  height: 122px;
-  background-image: url('../img/sun.png');
-  background-repeat: no-repeat;
-  z-index: 13;
-  bottom: 50px;
-  left: 50%;
-  margin-left: -25px;
-}
-
 #cloud-left {
   position: absolute;
   width: 652px;
