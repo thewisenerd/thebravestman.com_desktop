@@ -69,6 +69,10 @@ function addStars() {
 
   var twinkleDiv = document.getElementById("twinkle");
 
+  var viewport = window.viewport();
+  var vw = viewport.width || 1600;
+  var vh = viewport.height || 1200;
+
   var animation = false,
       animationstring = 'animation',
       keyframeprefix = '',
@@ -95,8 +99,8 @@ function addStars() {
       image.src = "assets/img/star.png";
       image.className = "little-star";
       image.id = "star" + i;
-      image.style.left = parseInt(Math.random() * 1600)+'px';
-      image.style.bottom = parseInt(Math.random() * 1200)+'px';
+      image.style.left = parseInt(Math.random() * vw)+'px';
+      image.style.bottom = parseInt(Math.random() * vh)+'px';
       image.style.webkitAnimationDelay = (20 * i / 1000) + 's';
       image.style.mozAnimationDelay = (20 * i / 1000) + 's';
       twinkleDiv.appendChild(image);
